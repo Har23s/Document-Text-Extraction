@@ -3,7 +3,7 @@ import torch
 from transformers import AutoModel, AutoTokenizer
  
 # -------------------------------
-# ⚙️ Config
+# ⚙️ Configg
 # -------------------------------
 MODEL_NAME = "deepseek-ai/DeepSeek-OCR"
 DEVICE = torch.device("cpu")
