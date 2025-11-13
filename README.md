@@ -4,4 +4,4 @@ The script first scans the images/ folder for .jpg, .jpeg, or .png files and pro
 
 The recognized text and visualization results are saved in the output/ directory. The code ensures stable performance on any system by forcing all computations to use float32.
 
-In short, this script provides a step-by-step, CPU-compatible OCR pipeline that converts document images into readable text using the DeepSeek-AI model.
+In short, this script provides a step-by-step, CPU and GPU-compatible OCR pipeline that converts document images into readable text using the DeepSeek-AI model.
