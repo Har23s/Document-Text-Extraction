@@ -75,7 +75,6 @@ with torch.no_grad():
         test_compress=False,
     )
  
-# -------------------------------
 # 📜 Output
 # -------------------------------
 print("\n✅ OCR complete! Output saved in:", output_path)
