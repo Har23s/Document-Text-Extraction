@@ -5,8 +5,7 @@ from transformers import AutoModel, AutoTokenizer
 
 MODEL_NAME = "deepseek-ai/DeepSeek-OCR"
 DEVICE = torch.device("cpu")
- 
-# -------------------------------
+
 # 🧩 Disable all CUDA + AMPP
 # -------------------------------
 torch.Tensor.cuda = lambda self, *a, **kw: self  # disable all .cuda() calls
