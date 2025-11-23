@@ -76,7 +76,7 @@ with torch.no_grad():
     )
  
 # 📜 Output
-# -------------------------------
+
 print("\n✅ OCR complete! Output saved in:", output_path)
 print("\n🧾 Result:\n")
 print(res)
