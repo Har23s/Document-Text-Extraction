@@ -57,7 +57,7 @@ model.eval()
  
 # -------------------------------
 # 🧠 Inference
-# -------------------------------
+
 prompt = "<image>\n<|grounding|>Convert this document image into readable text."
 output_path = "output"
 os.makedirs(output_path, exist_ok=True)
