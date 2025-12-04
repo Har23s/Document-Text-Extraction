@@ -9,7 +9,7 @@ DEVICE = torch.device("cpu")
 # 🧩 Disable all CUDA
 
 torch.Tensor.cuda = lambda self, *a, **kw: self  # disable all .cuda() calls
-torch.set_default_dtype(torch.float32)           # force float32 globally
+torch.set_default_dtype(torch.float32)           # fo
 torch.backends.cuda.matmul.allow_tf32 = False
 torch.backends.cudnn.allow_tf32 = False
  
